@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.encabezado {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    background-color: brown;
+    margin: 10px;
+    padding: 5px;
+}
+
+.encabezado a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.menu li {
+    padding: 0px 5px;
+    color: white;
+}
+.menu li a {
+    color: white;
+}
+
+.hamb {
+    display: none;
+}
+
+.encabezado__titulo {
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+.seccion {
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;;
+}
+
+.seccion__titulo {
+    text-transform: uppercase;
+    margin: 10px;
+    padding: 5px;
+}
+
+.seccion__foto1 {
+    margin: 10px;
+    padding: 5px;
+    width: 800px;
+    height: 560px;
+}
+
+.seccion__parrafo1 {
+    margin: 10px;
+    padding: 5px;
+}
+
+.seccion__video {
+    margin: 10px;
+    padding: 5px;
+}
+
+.seccion__parrafo2 {
+    margin: 10px;
+    padding: 5px;
+}
+
+.seccion__foto2 {
+    margin: 10px;
+    padding: 5px;
+    width: 800px;
+    height: 560px;
+}
+
+.seccion__parrafo3 {
+    margin: 10px;
+    padding: 5px;
+}
+
+.reservas {
+    background-color: brown;;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.footer{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    background-color: brown;
+    margin: 10px;
+    padding: 5px;
+}
+
+/* GRID DEL INDEX */
+.container {
+    display: grid;
+    grid-template-areas: 
+    "foto reservas" 
+    "foto2 foto2" 
+    "foto3 mapa";  
+    grid-template-columns: 50%;
+}
+.container img {
+    max-width: 100%;
+    height: auto;
+}
+.foto {
+    grid-area: foto;
+    margin: 10px;
+    padding: 5px;
+}  
+
+.reservas {
+    grid-area: reservas;
+    margin: 10px;
+    padding: 5px;
+}
+
+.foto2 {
+    grid-area: foto2;
+    margin: 10px;
+    padding: 5px;
+}
+
+.foto3 {
+    grid-area: foto3;
+    margin: 10px;
+    padding: 5px;
+
+}
+
+.mapa {
+    grid-area: mapa;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+.container__setcion1 {
+    display: grid;
+}
+
+/* GRID PARA PAGES ACTIVIDADES */
+.containeractividades {
+    display: grid;
+    grid-template-areas: 
+    "actividad1 actividad2 actividad3"
+    "actividad4 actividad5 actividad6"
+    "reservas reservas reservas";
+}
+.containeractividades img{
+    width: 99%;
+    height: auto;
+    border-radius: 10px;
+    padding: 10 px;
+    margin: 5px;  
+}
+
+/* RESPONSIVE ACTIVIDADES */
+@media screen and (max-width: 780px) {
+    .containeractividades {
+        display: grid;
+        grid-template-areas: 
+        "actividad1 actividad2"
+        "actividad3 actividad4"
+        "actividad5 actividad6"
+        "reservas reservas";
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .hamb {
+        display: inline;
+        font-size: 40px;
+    }
+    
+    /* RESPONSIVE INDEX */
+    .container {
+        display: grid;
+        grid-template-areas:
+        "foto foto" 
+        "reservas reservas" 
+        "foto2 foto3" 
+        "mapa mapa";;
+    }
+}
