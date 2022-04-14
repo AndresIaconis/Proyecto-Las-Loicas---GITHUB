@@ -23,7 +23,7 @@
 }
 
 .menu li {
-    padding: 0px 5px;
+    
     color: white;
 }
 .menu li a {
@@ -105,18 +105,24 @@
 }
 
 /* GRID DEL INDEX */
-.container {
+/* .container {
     display: grid;
     grid-template-areas: 
     "foto reservas" 
     "foto2 foto2" 
     "foto3 mapa";  
     grid-template-columns: 50%;
-}
+} */
 .container img {
     max-width: 100%;
     height: auto;
 }
+
+.fondomarron {
+    background-color: brown;
+    color: white;
+}
+
 .foto {
     grid-area: foto;
     margin: 10px;
@@ -189,7 +195,7 @@
         font-size: 40px;
     }
     
-    /* RESPONSIVE INDEX */
+    /* RESPONSIVE INDEX
     .container {
         display: grid;
         grid-template-areas:
@@ -197,5 +203,5 @@
         "reservas reservas" 
         "foto2 foto3" 
         "mapa mapa";;
-    }
+    } */
 }

@@ -5,28 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cabañas Las Loicas - Villa Lago Meliquina</title>
+        <!--Bootstrap-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <!-- Hoja de estilo -->
     <link rel="stylesheet" href="../estilos.css">
 </head>
 <body>
     <header class="encabezado">
-        <a href="../index.html">
-            <h1 class="encabezado__titulo">Cabañas Las Loicas - Villa Lago Meliquina</h1>
+        <a class="encabezado__titulo" href="./index.html">
+            <h1>Cabañas Las Loicas - Villa Lago Meliquina</h1>
         </a>
         <nav>
-            <ul class="menu">
-                <li>
+            <ul class="menu list-inline">
+                <li class="list-inline-item">
                     <a href="../index.html">Home</a>
                 </li>
-                <li>
+                <li class="list-inline-item">
                     <a href="./cabanas.html">Las Cabañas</a>
                 </li>
-                <li>
+                <li class="list-inline-item">
                     <a href="./villallagomeliquina.html">Villa Lago Meliquina</a>
                 </li>
-                <li>
+                <li class="list-inline-item">
                     <a href="./actividades.html">Actividades</a>
                 </li>
-                <li>
+                <li class="list-inline-item">
                     <a href="./reservas.html">Reservas</a>
                 </li>
             </ul>
@@ -35,14 +39,64 @@
             </div>
         </nav>
     </header>
-        <main class="containeractividades">
-            <img class="actividad1" src="../assets/meliquina.lago.jpg" alt="actividad 1">
-            <img class="actividad2" src="../assets/meliquina.lago2.jpg" alt="actividad 2">
-            <img class="actividad3" src="../assets/meliquina.lago3.jpg" alt="actividad 3">
-            <img class="actividad4" src="../assets/meliquina.lago4.jpg" alt="actividad 4">
-            <img class="actividad5" src="../assets/meliquina.lago5.jpg" alt="actividad 5">
-            <img class="actividad6" src="../assets/meliquina.lago6.jpg" alt="actividad 6">
-            <a class="reservas" href="./reservas.html">Reservá</a>
+    <main class="container">
+        <div class="row">
+            <div class="col-4">
+                <div class="card">
+                    <img src="../assets/meliquina.lago.jpg" class="card-img-top" alt="actividad1">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <img src="../assets/meliquina.lago2.jpg" class="card-img-top" alt="actividad2">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <img src="../assets/meliquina.lago3.jpg" class="card-img-top" alt="actividad3">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <img src="../assets/meliquina.lago4.jpg" class="card-img-top" alt="actividad4">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <img src="../assets/meliquina.lago5.jpg" class="card-img-top" alt="actividad5">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <img src="../assets/meliquina.lago6.jpg" class="card-img-top" alt="actividad6">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                    </div>
+                </div>
+            </div>
+        </div> 
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <a class="reservas" href="./reservas.html">Reservá</a>
+                    </div>
+                </div>
+    </main>
+            
         </main>
     <footer class="footer">
         <div><p>
