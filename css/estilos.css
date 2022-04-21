@@ -336,27 +336,27 @@ h1 {
                             /* Cambio de fotos */
 
 #Esqui .wrapper {
-  background: url(./assets/esqui.jpg) 20% 1%/cover no-repeat;
+  background: url(../assets/esqui.jpg) 20% 1%/cover no-repeat;
 }
 
 #Trekking .wrapper {
-    background: url(./assets/trekking.jpg) 20% 1%/cover no-repeat;
+    background: url(../assets/trekking.jpg) 20% 1%/cover no-repeat;
   }
 
   #Canotaje .wrapper {
-    background: url(./assets/meliquina.lago5.jpg) 20% 1%/cover no-repeat;
+    background: url(../assets/meliquina.lago5.jpg) 20% 1%/cover no-repeat;
   }
 
   #Snorkel .wrapper {
-    background: url(./assets/villameliquina.jpg) 20% 1%/cover no-repeat;
+    background: url(../assets/villameliquina.jpg) 20% 1%/cover no-repeat;
   }
 
   #Escalada .wrapper {
-    background: url(./assets/escalada.jpg) 20% 1%/cover no-repeat;
+    background: url(../assets/escalada.jpg) 20% 1%/cover no-repeat;
   }
 
   #SieteLagos .wrapper {
-    background: url(./assets/rutasietelagos.jpg) 20% 1%/cover no-repeat;
+    background: url(../assets/rutasietelagos.jpg) 20% 1%/cover no-repeat;
   }
 
 .activ .date {
