@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200&display=swap');
-$marron : #9e2a2a;
-$clarito : #fdebeb;
+
 
 *{
     margin: 0;
@@ -10,15 +9,11 @@ $clarito : #fdebeb;
 .encabezado {
     font-family: 'Raleway', sans-serif;
     text-align: center;
-    background-color: $marron;
+    background-color: brown;
     /* background-image: linear-gradient(to right, brown, rgb(165, 165, 106); */
     margin: 10px;
     padding: 5px;
-    color: #fdebeb;
-    a {
-        text-decoration: none;
-        color: $clarito;
-    }
+    color: white;
 }
 
 .navbar-light .navbar-brand {
@@ -42,19 +37,24 @@ $clarito : #fdebeb;
 
 }
 
+.encabezado a {
+    text-decoration: none;
+    color: white;
+}
+
 .menu {
     display: flex;
     justify-content: center;
     list-style-type: none;
-    li {
-
-        color: white;
-        a {
-            color: white;
-        }
-    }
 }
 
+.menu li {
+
+    color: white;
+}
+.menu li a {
+    color: white;
+}
 
 .hamb {
     display: none;
@@ -114,7 +114,7 @@ $clarito : #fdebeb;
 }
 
 .reservas {
-    background-color: $marron;
+    background-color: brown;;
     color: white;
     padding: 15px 32px;
     text-align: center;
@@ -185,6 +185,33 @@ $clarito : #fdebeb;
     display: grid;
 }
 
+/* GRID PARA PAGES ACTIVIDADES */
+.containeractividades {
+    display: grid;
+    grid-template-areas:
+    "actividad1 actividad2 actividad3"
+    "actividad4 actividad5 actividad6"
+    "reservas reservas reservas";
+}
+.containeractividades img{
+    width: 99%;
+    height: auto;
+    border-radius: 10px;
+    padding: 10 px;
+    margin: 5px;
+}
+
+/* RESPONSIVE ACTIVIDADES */
+@media screen and (max-width: 780px) {
+    .containeractividades {
+        display: grid;
+        grid-template-areas:
+        "actividad1 actividad2"
+        "actividad3 actividad4"
+        "actividad5 actividad6"
+        "reservas reservas";
+    }
+
     .menu {
         display: none;
     }
@@ -203,6 +230,9 @@ $clarito : #fdebeb;
         "foto2 foto3"
         "mapa mapa";;
     } */
+}
+
+
 
 
 /* TARJETAS PAGES ACTIVIDADES */
@@ -230,7 +260,7 @@ h1 {
 /* .row {
   /* max-width: 900px; */
   /* margin: 50px auto 0;
-} */ 
+} */ */
 
 .card {
   float: left;
@@ -306,27 +336,27 @@ h1 {
                             /* Cambio de fotos */
 
 #Esqui .wrapper {
-  background: url(../assets/esqui.jpg) 20% 1%/cover no-repeat;
+  background: url(./assets/esqui.jpg) 20% 1%/cover no-repeat;
 }
 
 #Trekking .wrapper {
-    background: url(../assets/trekking.jpg) 20% 1%/cover no-repeat;
+    background: url(./assets/trekking.jpg) 20% 1%/cover no-repeat;
   }
 
   #Canotaje .wrapper {
-    background: url(../assets/meliquina.lago5.jpg) 20% 1%/cover no-repeat;
+    background: url(./assets/meliquina.lago5.jpg) 20% 1%/cover no-repeat;
   }
 
   #Snorkel .wrapper {
-    background: url(../assets/villameliquina.jpg) 20% 1%/cover no-repeat;
+    background: url(./assets/villameliquina.jpg) 20% 1%/cover no-repeat;
   }
 
   #Escalada .wrapper {
-    background: url(../assets/escalada.jpg) 20% 1%/cover no-repeat;
+    background: url(./assets/escalada.jpg) 20% 1%/cover no-repeat;
   }
 
   #SieteLagos .wrapper {
-    background: url(../assets/rutasietelagos.jpg) 20% 1%/cover no-repeat;
+    background: url(./assets/rutasietelagos.jpg) 20% 1%/cover no-repeat;
   }
 
 .activ .date {
