@@ -80,25 +80,25 @@ $clarito : #fdebeb;
 }
 
 .seccion__foto1 {
-    margin: 10px;
-    padding: 5px;
-    width: 800px;
-    height: 560px;
+    max-width: 80%;
 }
 
 .seccion__parrafo1 {
     margin: 10px;
-    padding: 5px;
+    padding: 25px;
+    font-size: 1.3rem;
 }
 
 .seccion__video {
     margin: 10px;
     padding: 5px;
+    
 }
 
 .seccion__parrafo2 {
     margin: 10px;
-    padding: 5px;
+    padding: 25px;
+    font-size: 1.3rem;
 }
 
 .seccion__foto2 {
@@ -110,7 +110,8 @@ $clarito : #fdebeb;
 
 .seccion__parrafo3 {
     margin: 10px;
-    padding: 5px;
+    padding: 25px;
+    font-size: 1.3rem;
 }
 
 .reservas {
