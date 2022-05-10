@@ -7,13 +7,17 @@ $clarito : #fdebeb;
     padding: 0;
 }
 
+.container {
+  min-height: 100%;
+}
+
 .encabezado {
     font-family: 'Raleway', sans-serif;
     text-align: center;
     background-color: $marron;
     /* background-image: linear-gradient(to right, brown, rgb(165, 165, 106); */
-    margin: 10px;
     padding: 5px;
+    margin-bottom: 5px;
     color: #fdebeb;
     a {
         text-decoration: none;
@@ -127,8 +131,18 @@ $clarito : #fdebeb;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
     background-color: brown;
-    margin: 10px;
     padding: 5px;
+    margin-top: 5px;
+}
+
+.footerreservas{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  background-color: brown;
+  padding: 5px;
+  margin-top: 5px;
+  position: absolute;
+  bottom: 0;
 }
 
 /* GRID DEL INDEX */
