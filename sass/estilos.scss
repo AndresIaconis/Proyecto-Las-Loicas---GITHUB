@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;600&display=swap');
 $marron : #9e2a2a;
 $clarito : #fdebeb;
 
@@ -7,12 +7,16 @@ $clarito : #fdebeb;
     padding: 0;
 }
 
+body {
+  background: #F2F2F2;
+  font-family: 'Raleway', sans-serif;
+}
+
 .container {
   min-height: 100%;
 }
 
 .encabezado {
-    font-family: 'Raleway', sans-serif;
     text-align: center;
     background-color: $marron;
     /* background-image: linear-gradient(to right, brown, rgb(165, 165, 106); */
@@ -25,6 +29,11 @@ $clarito : #fdebeb;
     }
 }
 
+.estilo-titulo {
+  font-weight: 600;
+  font-size: 1.7rem;
+}
+
 .navbar-light .navbar-brand {
     color: white;
     font-weight: bolder;
@@ -34,14 +43,12 @@ $clarito : #fdebeb;
 
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
     color: white;
-    font-weight: bolder;
     font-family: 'Raleway', sans-serif;
 
 }
 
 .navbar-light .navbar-nav .nav-link {
     color: white;
-    font-weight: bolder;
     font-family: 'Raleway', sans-serif;
 
 }
@@ -67,7 +74,7 @@ $clarito : #fdebeb;
 .encabezado__titulo {
     text-decoration: none;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-align: center;
+    text-align: left;
     text-transform: uppercase;
 }
 .seccion {
@@ -75,6 +82,10 @@ $clarito : #fdebeb;
     padding: 5px;
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;;
+}
+
+.margennavbar {
+  padding-top: 60px;
 }
 
 .seccion__titulo {
@@ -127,8 +138,10 @@ $clarito : #fdebeb;
     display: inline-block;
     font-size: 16px;
 }
+
+/* FOOTER */
+
 .footer{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
     background-color: brown;
     padding: 5px;
@@ -136,13 +149,28 @@ $clarito : #fdebeb;
 }
 
 .footerreservas{
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   text-align: center;
   background-color: brown;
   padding: 5px;
   margin-top: 5px;
   position: absolute;
   bottom: 0;
+}
+
+.estilo-icono {
+  color: #ffffff;
+  font-size: 20px;
+  margin-right: 0.5rem;
+}
+.margen-icono {
+  margin-right: 1rem;
+}
+
+.texto-icono {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #ffffff;
 }
 
 /* GRID DEL INDEX */
