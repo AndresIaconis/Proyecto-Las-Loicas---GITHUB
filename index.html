@@ -17,8 +17,8 @@
 </head>
 <body>
     <header class="encabezado">
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: brown">
-            <div class="container" style="background-color: brown">
+            <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: brown">
+            <div class="container-fluid margen-navbar">
             <a class="navbar-brand estilo-titulo" href="./index.html">Las Loicas</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -32,6 +32,7 @@
                         <a class="nav-link" href="./pages/villallagomeliquina.html">Villa Lago Meliquina</a>
                     </li>
                     <li class="nav-item">
+                        
                         <a class="nav-link" href="./pages/actividades.html">Actividades</a>
                     </li>
                     <li class="nav-item">
@@ -40,67 +41,107 @@
                     </ul>
             </div>
             </div>
-        </nav>
+            </nav>
     </header>
     <main>
         <section class="container-fluid margennavbar">
-            <div class="row fondomarron">
+            <div class="row justify-content-center align-items-center">
                 <div class="col-lg-6 col-sm-12">
-                    <div class="img-fluid p-4">
-                        <a href="./pages/cabanas.html">
-                            <img src="assets/cabaña2.jpg" alt="imagen de las cabañas" width="100%">
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-sm-12 text-center">
-                    <div class="img-fluid p-2">
+                    <div class="p-5">
+                        <p class="estilo-heading-index">Vení a conocer</p> 
+                        <h1 class="display-2 display-bold">Villa Meliquina</h1>
                         <p class="lead text-start pt-4 px-2">
                             Villa Meliquina es una localidad del Departamento Lácar, en la provincia del Neuquén, Argentina. Está ubicada a 40 kilómetros de San Martín de los Andes y 22 kilómetros del Cerro Chapelco. Acá, en las Cabañas Las Loicas, te invitamos a descubrir la Patagonia.
                         </p>
-                        <a class="btn btn-outline-light px-4 btn-lg mt-5" href="./pages/reservas.html">Reservá</a>
+                        <a class="btn btn-outline-danger px-4 btn-lg mt-4" role="button" href="./pages/reservas.html">Reservá</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <div class="container p-5">
+                        <a href="./pages/cabanas.html">
+                            <img src="assets/cabaña2.jpg" alt="imagen de las cabañas" class="img-fluid" width="100%">
+                        </a>
                     </div>
                 </div>
             </div>
         </section>
-        <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="img-fluid p-2">
-                    <a href="./pages/villallagomeliquina.html">
-                        <img src="./assets/meliquina.lago8.jpg" alt="imagen de villa meliquina">
-                    </a>
+        <section class="villa-lago-meliquina">
+                <div class="row">
+                    <div class="col">
+                        <div class="hovereffect">
+                                <img src="./assets/meliquina.lago8.jpg" class="estilos-imagen-meliquina img-responsive" alt="imagen de villa meliquina">
+                                <a href="./pages/villallagomeliquina.html">
+                                <div class="overlay">
+                                    <h2>Un paraíso oculto</h2>
+                                </div>
+                                </a>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section class="seccion-3 pt-sm-5 pt-md-0">
+            <div class="container">
+                <div class="row justify-content-center align-items-center p-lg-5">
+                    <div class="col-lg-6 col-sm-12 text-center">
+                        <div class="container">
+                            <a href="./pages/actividades.html" title="Actividades">
+                                <img src="./assets/a.webp" class="img-fluid" alt="imagen de cerro chapelco">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-12 text-center">
+                        <div class="p-5">
+                            <h3 class="display-5 estilo-h3">Actividades</h3>
+                            <p class="lead text-start">
+                                ¿Querés conocer más sobre todo lo que podés hacer en tus vacaciones en Villa Meliquina?
+                            </p>
+                            <div class="d-flex justify-content-start">
+                            <a class="btn btn-outline-light px-4 btn-lg mt-4 text-left" role="button" href="./pages/actividades.html" sr-only="Actividades">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-6 col-sm-12 text-center">
-                <div class="img-fluid p-2">
-                    <a href="../pages/actividades.html">
-                        <img src="./assets/a.webp" alt="imagen de cerro chapelco">
-                    </a>
+        </section>
+        <section class="seccion-4">
+            <div class="container">
+                <div class="row justify-content-center align-items-center p-lg-5">
+                    <div class="col-lg-6 col-sm-12 text-center">
+                        <div class="p-5">
+                            <h4 class="display-6 estilo-h4">¿Dónde estamos?</h4>
+                            <p class="lead text-start">
+                                Villa Meliquina está en la Patagonia Argentina, en los límites del Parque Nacional Lanin y a solo 36 kilómetros de San Martín de Los Andes.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-12 text-center">
+                        <div class="container">
+                            <div class="h-100 w-100">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d48639.45686063513!2d-71.30853625693376!3d-40.365277048960735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1649024452363!5m2!1ses-419!2sar" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="col-lg-6 col-sm-12 text-center">
-                <div class="h-100 w-100 p-2">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d48639.45686063513!2d-71.30853625693376!3d-40.365277048960735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1649024452363!5m2!1ses-419!2sar" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-            </div>
-        </div>
-        </div>
+        </section> 
     </main>
-    <footer class="footer">
-        <div><p>
+    <footer class="footer p-4">
+        <div><p class="texto-footer">
             Cabañas Las Loicas - Villa Lago Meliquina 2022
         </p></div>
 
-        <div class="d-flex flex-xl-row flex-lg-row flex-md-column flex-sm-column align-items-center justify-content-center">
-            <a href="#" class="margen-icono">
-                <i class="fa-brands fa-whatsapp estilo-icono"></i><span class="texto-icono"> Comunicate con nosotros </span>
-            </a>
-        
-            <a href="#">
-                <i class="fa-brands fa-facebook estilo-icono"> </i> <span class="texto-icono"> Seguinos en nuestras redes</span>
-            </a> 
+        <div class="row align-items-center justify-content-center">
+            
+            <div class="col-auto">
+                <a href="#" class="margen-icono align-items-center">
+                    <i class="fa-brands fa-whatsapp estilo-icono"></i><span class="texto-icono"> Comunicate con nosotros </span>
+                </a>
+            </div>
+            <div class="col-auto">
+                <a href="#" class="align-items-center">
+                    <i class="fa-brands fa-facebook estilo-icono"> </i> <span class="texto-icono"> Seguinos en nuestras redes</span>
+                </a> 
+            </div>
         </div>
 
     </footer>
